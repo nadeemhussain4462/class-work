@@ -16,42 +16,75 @@
             <li><a href="#about">About Us</a></li>
             <li><a href="#publications">Publications</a></li>
             <li><a href="#feedback">Feedback</a></li>
-            <li><a href="#franchise">Get a Franchise</a></li>
-            <li><a href="#order">Order Online</a></li>
+            <div class="button-container">
+              <button class="button franchise">Get a Franchise</button>
+              <button class="button order">
+                Order Online <span class="arrow">&rarr;</span>
+              </button>
+            </div>
           </ul>
         </nav>
       </div>
     </header>
+    <!-- Hero Section Open -->
     <div class="slider">
       <div class="slides">
-          <!-- Radio buttons for navigation -->
-          <input type="radio" name="radio-btn" id="radio1">
-          <input type="radio" name="radio-btn" id="radio2">
-          <input type="radio" name="radio-btn" id="radio3">
-          <input type="radio" name="radio-btn" id="radio4">
+        <!-- Radio buttons for navigation -->
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <input type="radio" name="radio-btn" id="radio4" />
 
-          <!-- Slide images -->
-          <div class="slide first">
-              <img src="images/hero 1.webp" alt="Image 1">
-          </div>
-          <div class="slide">
-              <img src="images/hero 2.webp" alt="Image 2">
-          </div>
-          <div class="slide">
-              <img src="images/hero 3.webp" alt="Image 3">
-          </div>
-          <div class="slide">
-              <img src="images/hero 4.webp" alt="Image 4">
-          </div>
+        <!-- Slide images -->
+        <div class="slide first">
+          <img src="images/hero 1.webp" alt="Image 1" />
+        </div>
+        <div class="slide">
+          <img src="images/hero 2.webp" alt="Image 2" />
+        </div>
+        <div class="slide">
+          <img src="images/hero 3.webp" alt="Image 3" />
+        </div>
+        <div class="slide">
+          <img src="images/hero 4.webp" alt="Image 4" />
+        </div>
       </div>
 
       <!-- Manual navigation -->
       <div class="navigation-manual">
-          <label for="radio1" class="manual-btn"></label>
-          <label for="radio2" class="manual-btn"></label>
-          <label for="radio3" class="manual-btn"></label>
-          <label for="radio4" class="manual-btn"></label>
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
       </div>
+    </div>
+    <!-- Hero Section Close -->
+
+    <!-- Card & Order Section Open -->
+    <div class="header">
+      <h1>Welcome to <span class="hed-text">Salt'n Pepper</span></h1>
+      <h2>Restaurants! Our Brands</h2>
+      <p>
+        Please click our brands below for further information, reservations or
+        to order online!
+      </p>
+    </div>
+    <div class="card-container">
+      <div class="card">
+        <img src="images/card1.webp" alt="Restaurant" />
+      </div>
+      <div class="card">
+        <img src="images/card2.webp" alt="Express" />
+      </div>
+      <div class="card">
+        <img src="images/card3.webp" alt="Village" />
+      </div>
+    </div>
+    <div class="card-btn">
+    <button class="button">Order Now</button>
+    <button class="button">Order Now</button>
+    <button class="button">Reserve a Table</button>
   </div>
+    <!-- Card & Order Section Close  -->
   </body>
 </html>
