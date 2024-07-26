@@ -45,12 +45,13 @@ nav ul li a {
   gap: 20px;
 } */
 
-.btn{
+.btn {
   display: flex;
   margin-bottom: 5px;
 }
 
-.btn-2 , .btn-1 {
+.btn-2,
+.btn-1 {
   padding: 5px 10px;
   border: 2px solid;
   border-radius: 20px;
@@ -199,10 +200,10 @@ nav ul li a {
   text-align: center;
 }
 
-.hed-text{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-weight: 900;
-font-size:larger ;
+.hed-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+  font-size: larger;
 }
 
 .header .highlight {
@@ -222,7 +223,7 @@ font-size:larger ;
   display: flex;
   justify-content: center;
   gap: 130px;
-  margin-bottom: 80px;
+  margin-bottom: 180px;
 }
 .card {
   background-color: #fff;
@@ -261,4 +262,52 @@ font-size:larger ;
 .franchise:hover {
   background-color: #fff;
   color: #000;
+}
+
+.res-fr {
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+}
+
+.res-fr,
+h2 {
+  font-size: large;
+}
+
+.isb-res {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  gap: 150px;
+  margin-top: 50px;
+}
+
+.dir-btn a {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-color: #e2e2e2;
+  border: 2 solid white;
+}
+.isb-img img {
+  width: 550px;
+  height: 300px;
+}
+
+.fsl-res {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  gap: 150px;
+  margin-top: 50px;
+}
+
+.fsl-img img {
+  width: 550px;
+  height: 300px;
+}
+
+.fsl-txt{
+  align-items: baseline;
 }
