@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Salt'n Pepper Restaurants</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
   </head>
   <body>
     <header>
@@ -17,7 +21,11 @@
             <li><a href="#publications">Publications</a></li>
             <li><a href="#feedback">Feedback</a></li>
             <li class="btn-1"><a href="#franchise">Get a Franchise</a></li>
-            <li class="btn-2"><a href="#order">Order Onlice </a></li>
+            <li class="btn-2">
+              <a href="#order"
+                >Order Online <i class="fa fa-arrow-right"></i
+              ></a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -85,7 +93,7 @@
 
     <!-- Restaurant Franchises card open -->
 
-    <hr />
+    <!-- <hr /> -->
     <div class="main-fr">
       <div class="res-fr">
         <h1>Salt'n Pepper</h1>
@@ -97,11 +105,13 @@
       </div>
       <div class="isb-res">
         <div class="isb-txt">
-          <h3>ISLAMABAD</h3>
+          <h4 class="red">ISLAMABAD</h4>
           <h1>Salt'n Pepper Restaurant</h1>
-          <p>📍 Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
-          <p>📞 Ph: 051-2604904-6</p>
-          <p class="dir-btn"><a href="/">Get Direction</a></p>
+          <p>📍Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+          <p>📞Ph: 051-2604904-6</p>
+          <button class="dir-btn">
+            <a href="/">Get Direction <i class="fa fa-arrow-right"></i></a>
+          </button>
         </div>
         <div class="isb-img">
           <img src="images/isb-res.webp" alt="isb-res_image" />
@@ -112,18 +122,73 @@
           <img src="images/fsl-res.webp" alt="fsl-res_image" />
         </div>
         <div class="fsl-txt">
-          <h3>FAISALABAD</h3>
-          <h1>
-            Salt'n Pepper Restaurant
-            <p>📍 4-Kohinoor City, Faisalabad</p>
-            <p>📞 Ph: 041-8711404</p>
-            <p class="dir-btn"><a href="/">Get Direction</a></p>
-          </h1>
+          <h4 class="red">FAISALABAD</h4>
+          <h1>Salt'n Pepper Restaurant</h1>
+          <p>📍4-Kohinoor City, Faisalabad</p>
+          <p>📞Ph: 041-8711404</p>
+          <button class="dir-btn">
+            <a href="/">Get Direction <i class="fa fa-arrow-right"></i></a>
+          </button>
         </div>
       </div>
-      <div class="bhl-res"></div>
+
+      <div class="bhl-res">
+        <div class="bhl-txt">
+          <h4 class="red">Bahawalpur</h4>
+          <h1>Salt'n Pepper Restaurant</h1>
+          <p>📍D.C Chowk, opposite Commissioner House, Bahawalpur</p>
+          <p>📞Ph: 062-2740271-2</p>
+          <button class="dir-btn">
+            <a href="/">Get Direction <i class="fa fa-arrow-right"></i></a>
+          </button>
+        </div>
+        <div class="bhl-img">
+          <img src="images/bhl-res.webp" alt="bhl-res_image" />
+        </div>
+      </div>
     </div>
 
     <!-- Restaurant Franchises card close -->
+
+    <!-- Express Franchises open-->
+    <div>
+      <div class="ctn">
+        <h1>
+          Salt'n Pepper <br />
+          <span class="e-f"> Express Franchises </span>
+        </h1>
+        <div class="franchises">
+          <div class="franchise">
+            <img
+              src="images/img1.webp"
+              alt="Salt'n Pepper Express Emporium Mall"
+            />
+            <h2>EMPORIUM MALL</h2>
+            <h3>Salt'n Pepper Express</h3>
+            <p>📍 2nd Floor, Food Court Emporium Mall</p>
+            <p>📞 Ph: 0311-1100947</p>
+          </div>
+          <div class="franchise">
+            <img
+              src="images/img2.webp"
+              alt="Salt'n Pepper Express Gujranwala"
+            />
+            <h2>GUJRANWALA</h2>
+            <h3>Salt'n Pepper Express</h3>
+            <p>📍 Sixteenth Avenue Mall</p>
+            <p>📞 Ph: 0300-6024000</p>
+          </div>
+          <div class="franchise">
+            <img src="images/img3.webp" alt="Salt'n Pepper Express Sargodha" />
+            <h2>SARGODHA</h2>
+            <h3>Salt'n Pepper Express</h3>
+            <p>📍 Opposite Sargodha Arts Council Babar Road</p>
+            <p>📞 Ph: 048-3725500</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Express Franchises close-->
   </body>
 </html>
