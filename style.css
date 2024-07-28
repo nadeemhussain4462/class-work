@@ -361,6 +361,7 @@ nav ul li a {
 /* ...  */
 .ctn {
   padding: 20px;
+  margin: auto;
   text-align: center;
   color: #fff;
 }
@@ -422,6 +423,29 @@ nav ul li a {
   margin-top: 10px;
 }
 
+.fr-btn {
+  padding: 10px 25px;
+  border: 1px solid;
+  border-radius: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #000;
+  color: #fff;
+  border-color: #523e3e;
+}
+
+.fr-btn a{
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-color: #e2e2e2;
+  border: 2 solid white;
+}
+
 .v-f {
   display: flex;
   justify-content: space-evenly;
@@ -468,7 +492,7 @@ nav ul li a {
   display: inline-block;
 }
 
-.b-t{
+.b-t {
   color: #fff;
 }
 .footer ul {
@@ -489,9 +513,8 @@ nav ul li a {
   text-decoration: underline;
 }
 
-.f-c{
+.f-c {
   justify-content: start;
-
 }
 .social-icons {
   display: flex;
