@@ -436,10 +436,97 @@ nav ul li a {
   text-align: start;
 }
 
+.footer {
+  padding: 40px 20px;
+  background-color: #111;
+  display: flex;
+  color: #bbb5b5;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.footer div {
+  margin: 20px;
+}
+
+.footer .logo {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer .description {
+  max-width: 300px;
+}
+
+.footer h3 {
+  font-size: 1.2em;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  margin-bottom: 15px;
+  /* border-bottom: 2px solid #ff0000; */
+  display: inline-block;
+}
+
+.b-t{
+  color: #fff;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: rgb(141, 137, 137);
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.f-c{
+  justify-content: start;
+
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+.footer .social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.app-buttons img {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  /* margin-top: 10px; */
+}
+
 .ftr {
   display: flex;
   margin: 0px 30px;
   color: #666161;
   font-size: small;
   justify-content: space-between;
+}
+
+.fa-brands {
+  background-color: red;
+  padding: 10px;
+  border-radius: 40px;
+  color: #fff;
+  font-size: x-large;
 }
