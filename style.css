@@ -365,8 +365,8 @@ nav ul li a {
   color: #fff;
 }
 
-.e-f{
-  font-family: 'Times New Roman', Times, serif;
+.e-f {
+  font-family: "Times New Roman", Times, serif;
   font-size: 50px;
 }
 .container h1 {
@@ -420,4 +420,18 @@ nav ul li a {
   text-decoration: none;
   border-radius: 5px;
   margin-top: 10px;
+}
+
+.v-f {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.v-img img{
+height: 350px;
+width: 650px;
+}
+
+.v-txt {
+  text-align: start;
 }
