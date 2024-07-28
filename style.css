@@ -427,11 +427,19 @@ nav ul li a {
   justify-content: space-evenly;
 }
 
-.v-img img{
-height: 350px;
-width: 650px;
+.v-img img {
+  height: 350px;
+  width: 650px;
 }
 
 .v-txt {
   text-align: start;
+}
+
+.ftr {
+  display: flex;
+  margin: 0px 30px;
+  color: #666161;
+  font-size: small;
+  justify-content: space-between;
 }
